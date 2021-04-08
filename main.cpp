@@ -8,6 +8,7 @@ int main()
 	Mat src =imread("D:/test.jpg");
 	imshow("input", src);
 	waitKey(0);
+
 	destroyAllWindows();
 	return 0;
 }
